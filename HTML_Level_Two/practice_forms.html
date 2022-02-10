@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>understanding forms</title>
+  </head>
+  <body>
+    <form action="https://www.facebook.com" method="post">
+      <label for="userinput">
+        enter the input:
+      <input id="userinput" type="email" name="useremail" placeholder="enter your email" required>
+      </label>
+
+      <label>
+        enter the password:
+        <input type="text" name="password" placeholder="enter the password" required>
+      </label>
+
+      <input type="submit" name="submitting the form" value="click here to submit">
+
+  <h1>Hotel feedback form</h1>
+
+    <form method="get">
+
+      <h3>Are you from the US or outside the US??</h3>
+
+      <label for="inside USA">
+      Inside the USA
+      <input id="inside USA" type="radio" name="tick" value="insideUS">
+      </label>
+
+      <label for="outside USA">
+      Outside the USA
+      <input id="outside USA" type="radio" name="tick" value="outsideUS">
+      </label>
+
+      <h3>How was the service?</h3>
+
+      <select name="stars">
+        <option value="Great">3</option>
+        <option value="Medium">2</option>
+        <option value="Not good">1</option>
+      </select>
+
+      <h2>Any other feedback from your side:</h2>
+
+      <textarea name="mytext" rows="8" cols="80"></textarea>
+
+      <input type="submit" name="submitting" value="click to submit">
+    </form>
+
+
+  </body>
+</html>

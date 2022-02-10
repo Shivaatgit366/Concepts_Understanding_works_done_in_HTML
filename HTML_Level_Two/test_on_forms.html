@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>assessment on forms</title>
+  </head>
+  <body>
+    <h1>Course Sign Up Page</h1>
+
+    <p>Plz note that First Name, Last Name, Password and Email are required.</p>
+
+    <form action="https://www.facebook.com" method="post">
+
+      <label for="firstname">First Name:</label>
+      <input id="firstname" type="text" name="firstname" placeholder="First Name" required>
+
+      <label for="lastname">Last Name:</label>
+      <input id="lastname" type="text" name="lastname" placeholder="Last Name" required>
+
+      <p></p>
+
+      <label for="email">
+        Email:
+      <input id="email" type="email" name="email" placeholder="name@email.com" required>
+      </label>
+
+      <label for="password">
+        Password:
+      <input id="password" type="password" name="password" placeholder="enter the password" required>
+      </label>
+
+      <p>Are you over the age of 18??</p>
+
+      <label>Yes:</label>
+      <input type="radio" name="age" value="over 18">
+
+      <label>No:</label>
+      <input type="radio" name="age" value="under 18">
+
+      <p>Do you have a credit card or paypal??</p>
+
+      <select name="payment_mode">
+        <option value="credit card">Credit Card</option>
+        <option value="paypal">Paypal</option>
+      </select>
+
+      <br>
+
+      <p></p>
+
+      <input type="submit" name="submit" value="Sign Up">
+    </form>
+  </body>
+</html>
